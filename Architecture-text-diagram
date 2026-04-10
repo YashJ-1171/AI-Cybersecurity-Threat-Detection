@@ -1,0 +1,17 @@
+[Network Traffic Data] (CSV) 
+       │
+       ▼
+[Data Preprocessing Module] (Clean missing values, Label Encoding)
+       │
+       ▼
+[Feature Engineering] (StandardScaler - normalize byte sizes & flow times)
+       │
+       ▼
+[Machine Learning Engine] (Random Forest Classifier)
+       │
+       ├─► (Traffic = Normal) ──► [Log & Ignore]
+       │
+       └─► (Traffic = Attack) ──► [Alert Generation Module]
+                                         │
+                                         ▼
+                             [Visualization & Reporting] (Confusion Matrix, Threat Graphs)

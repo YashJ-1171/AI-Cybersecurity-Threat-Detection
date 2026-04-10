@@ -1,0 +1,15 @@
+AI-Cybersecurity-Threat-Detection/
+│
+├── data/                   # Store your datasets here (CSV files)
+├── src/                    # Source code folder
+│   ├── __init__.py
+│   ├── data_generator.py   # Simulates network data so project works out-of-the-box
+│   ├── preprocess.py       # Handles data cleaning and scaling
+│   ├── model.py            # Contains the ML algorithm
+│   └── visualize.py        # Generates graphs and charts
+├── models/                 # Saved trained models (.pkl files)
+├── outputs/                # Generated graphs and prediction logs
+├── docs/                   # Additional documentation or assignment files
+├── README.md               # The most important file for GitHub
+├── requirements.txt        # Python dependencies
+└── main.py                 # The orchestrator script to run everything
