@@ -29,4 +29,16 @@ In a modern Security Operations Center (SOC), analysts face "alert fatigue" from
 * Achieved high accuracy and F1-score in distinguishing attack vectors.
 * **Feature Importance:** Discovered that `failed_logins` and `src_bytes` are the strongest indicators of malicious activity.
 
-*(Add your output screenshots here!)*
+## 📸 Project Screenshots
+
+### 1. Model Evaluation: Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+*This matrix shows the model's high precision in distinguishing between normal network traffic and malicious attacks.*
+
+### 2. Threat Detection: Feature Importance
+![Feature Importance](images/feature_importance.png)
+*Analysis indicating which network behaviors (e.g., failed logins, massive data transfers) are the strongest indicators of a cyber attack.*
+
+### 3. Execution Log & Classification Report
+![Terminal Output](images/terminal_output.png)
+*End-to-end pipeline execution showing 99%+ accuracy and detailed precision/recall scores for threat identification.*
