@@ -40,7 +40,7 @@ In a modern Security Operations Center (SOC), analysts face "alert fatigue" from
 *Analysis indicating which network behaviors (e.g., failed logins, massive data transfers) are the strongest indicators of a cyber attack.*
 
 ### 3. Execution Log & Classification Report
-![CSV file](Images/terminal_output.png)
+![CSV file](Images/network_traffic.csv)
 *End-to-end pipeline execution showing 99%+ accuracy and detailed precision/recall scores for threat identification.*
 
 ## 4. Terminal Output
