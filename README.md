@@ -32,16 +32,16 @@ In a modern Security Operations Center (SOC), analysts face "alert fatigue" from
 ## 📸 Project Screenshots
 
 ### 1. Model Evaluation: Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](Images/confusion_matrix.png)
 *This matrix shows the model's high precision in distinguishing between normal network traffic and malicious attacks.*
 
 ### 2. Threat Detection: Feature Importance
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](Images/feature_importance.png)
 *Analysis indicating which network behaviors (e.g., failed logins, massive data transfers) are the strongest indicators of a cyber attack.*
 
 ### 3. Execution Log & Classification Report
-![CSV file](images/terminal_output.png)
+![CSV file](Images/terminal_output.png)
 *End-to-end pipeline execution showing 99%+ accuracy and detailed precision/recall scores for threat identification.*
 
 ## 4. Terminal Output
-![Terminal Output](images/terminal_output)
+![Terminal Output](Images/terminal_output.png)
